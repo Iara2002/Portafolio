@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500&display=swap');
 
 :root {
     --color-body: #b5d2d6;
     --color-heading: #fefffd;
-    --color-base: #512e61;
+    --color-base: #56236e;
     --color-base2: #3a3c58;
-    --color-brand: #87bcb4;
-    --color-brand2: #121010;
+    --color-brand: #39898f;
+    --color-brand2: #252323;
     --sidbar-width: 240px;
-    --font-base: "Popins";
+    --font-base: "Raleway";
 }
 
 body {
@@ -36,12 +36,24 @@ img {
     width: 100%;
 }
 
+.space{
+    line-height: 2rem;
+    color: #fefffd;
+}
+
 .text-brand {
     color: var(--color-brand);
 }
 
 .bg-base {
     background-color: var(--color-base);
+}
+.bg-base h4{
+    color: var(--color-brand2);
+}
+.mb-0{
+    color: var(--color-heading);
+    line-height: 2.5rem;
 }
 
 .full-height {
